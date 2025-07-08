@@ -18,28 +18,56 @@ Pare el Logine no se uso una plantilla específica de login, sino un diseño pro
 Descripción de cada sección
 
 Index.html
+
 Logo: Imagen circular en la parte superior.
+
 Formulario de inicio de sesión: Campos para correo y contraseña, botón para ingresar y enlace para registrarse.
-Formulario de registro: (oculto por defecto) Campos para nombre, correo, contraseña y repetir contraseña, botón para registrar y enlace para volver al login.
+
+Formulario de registro: (oculto por defecto) Campos para nombre, correo, contraseña y repetir contraseña, botón para registrar y enlace para volver al 
+
+
+login:
+
 Mensajes: Área para mostrar mensajes de error o información.
+
 Redirección: Al iniciar sesión, redirige a portafolio.html.
+
+
+
 
 Estilos:
 
 Principales estilos del login (index.html) en su archivo styles.css:
+
 body: Fondo con degradado suave y texto negro.
+
 .bg-image: Imagen de fondo fija, desenfocada y con opacidad, cubriendo toda la pantalla.
+
 .custom-card: Tarjeta principal del login con bordes redondeados, sombra suave y fondo blanco.
+
 .card-body: Espaciado interno amplio para el contenido de la tarjeta.
+
 .logo-circle: El logo se muestra circular, con sombra y ajustado al espacio.
 
+
+
+
 Botones (.btn-primary, .btn-success):
+
 Degradados suaves, sin bordes, colores de texto gris oscuro.
+
 Efectos hover para resaltar al pasar el mouse.
+
 Campos de formulario (.form-control:focus): Borde y sombra azulada al enfocar.
+
 #formTitle: Color de título oscuro
+
 #msg: Espacio reservado para mensajes de error o éxito.
+
 .custom-header, .custom-btn, .custom-body: Clases auxiliares para personalizar aún más el diseño (puedes usarlas para encabezados, botones y fondos secundarios).
+
+
+
 
 Implementacion del JS (login.js)
 
@@ -57,6 +85,7 @@ Si no coinciden, muestra una alerta de error.
 Si coinciden, muestra un mensaje de éxito (“¡Registro exitoso! Ahora puedes iniciar sesión.”), espera 2 segundos y luego vuelve a mostrar el formulario de login.
 4. Mensajes
 Usa el div con id msg para mostrar mensajes de éxito o error.
+
    
 
 Metodos de validacion de correo:
