@@ -22,7 +22,7 @@ Logo: Imagen circular en la parte superior.
 Formulario de inicio de sesión: Campos para correo y contraseña, botón para ingresar y enlace para registrarse.
 Formulario de registro: (oculto por defecto) Campos para nombre, correo, contraseña y repetir contraseña, botón para registrar y enlace para volver al login.
 Mensajes: Área para mostrar mensajes de error o información.
-Redirección: Al iniciar sesión, redirige a index.html.
+Redirección: Al iniciar sesión, redirige a portafolio.html.
 
 Estilos:
 
@@ -32,6 +32,7 @@ body: Fondo con degradado suave y texto negro.
 .custom-card: Tarjeta principal del login con bordes redondeados, sombra suave y fondo blanco.
 .card-body: Espaciado interno amplio para el contenido de la tarjeta.
 .logo-circle: El logo se muestra circular, con sombra y ajustado al espacio.
+
 Botones (.btn-primary, .btn-success):
 Degradados suaves, sin bordes, colores de texto gris oscuro.
 Efectos hover para resaltar al pasar el mouse.
@@ -68,15 +69,11 @@ Contraseña:
 El campo de contraseña también tiene el atributo required, por lo que no puede estar vacío.
 
 const pass = document.getElementById('registerPassword').value;
-
 const repeat = document.getElementById('repeatPassword').value;
-
 if (pass !== repeat) {
-
   alert('Las contraseñas no coinciden. Por favor, corrige el error.');
-  
   return;
-}
+  }
 
 
 capturas de previsualizacion:
