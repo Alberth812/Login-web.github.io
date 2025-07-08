@@ -1,7 +1,7 @@
 # Login-web.github.io
 login web
 
-![image](https://github.com/user-attachments/assets/7c9f0350-6993-4fc3-80b3-5141c466fc02)
+![image](https://github.com/user-attachments/assets/4500658b-602a-4153-8e85-c45072e78ba1)
 
 
 Para el siguiente trabajo de programacion web elaboramos un login en html, añadiendo metodos de verificacion y registro de datos.
