@@ -1,0 +1,111 @@
+
+body {
+  background: linear-gradient(135deg, #f5f6fa 0%, #e3e3e3 100%);
+  background-size: cover;
+  color: #000000;
+}
+
+/* Fondo secundario para secciones o tarjetas */
+.custom-body {
+  background-color: #f5f6fa77;
+}
+
+/* Tarjeta principal del login */
+.custom-card {
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px rgba(120, 120, 120, 0.06);
+  border: none;
+  background: #fff;
+}
+
+/* Encabezado de la tarjeta */
+.custom-header {
+  background-color: #141414;
+  color: #000000;
+  border-radius: 15px 15px 0 0 !important;
+}
+
+/* Botones personalizados */
+.custom-btn {
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+/* Botón primario (login) */
+.btn-primary {
+  background: linear-gradient(90deg, #e3e3e3 0%, #bfcad6 100%);
+  border: none;
+  color: #444;
+}
+
+.btn-primary.custom-btn {
+  background-color: #bfcad6;
+  border-color: #bfcad6;
+  color: #444;
+}
+
+.btn-primary.custom-btn:hover {
+  background-color: #a7b3c6;
+  border-color: #a7b3c6;
+  color: #222;
+}
+
+/* Botón de éxito (registro) */
+.btn-success {
+  background: linear-gradient(90deg, #d4e2d4 0%, #bfcad6 100%);
+  border: none;
+  color: #444;
+}
+
+.btn-success.custom-btn {
+  background-color: #d4e2d4;
+  border-color: #d4e2d4;
+  color: #444;
+}
+
+.btn-success.custom-btn:hover {
+  background-color: #bfcad6;
+  border-color: #bfcad6;
+  color: #222;
+}
+
+/* Cuerpo de la tarjeta */
+.card-body {
+  padding: 2rem 1.5rem;
+}
+
+/* Enfoque en campos de formulario */
+.form-control:focus {
+  border-color: #bfcad6;
+  box-shadow: 0 0 0 0.2rem rgba(191,202,214,.18);
+}
+
+/* Título del formulario */
+#formTitle {
+  color: #282828;
+}
+
+/* Mensajes de notificación */
+#msg {
+  min-height: 1.5em;
+}
+
+/* Imagen de fondo para el login */
+.bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: url('assets/img/pexels-brett-sayles-4520551.jpg') no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+ .logo-circle {
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
