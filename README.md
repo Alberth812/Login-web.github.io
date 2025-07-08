@@ -5,17 +5,26 @@ login web
 
 
 Para el siguiente trabajo de programacion web elaboramos un login en html, añadiendo metodos de verificacion y registro de datos.
-index.html: El menú de navegación principal incluye:
+index.html: 
+
+
+El menú de navegación principal incluye:
 
 Inicio de sesion
 Registro de usuario
 
+
+
 Login.html: solo es un formulario de login/registro.
 
-Plantilla utilizada
-Pare el Logine no se uso una plantilla específica de login, sino un diseño propio con Bootstrap.
+Plantilla utilizada: 
+Pare el Login no se uso una plantilla específica de login, sino un diseño propio con Bootstrap.
+
+
 
 Descripción de cada sección
+
+
 
 Index.html
 
